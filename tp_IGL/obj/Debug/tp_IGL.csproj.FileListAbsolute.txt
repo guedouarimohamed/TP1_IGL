@@ -1,0 +1,2 @@
+E:\1CS-2017-2018\TP\tp_IGL\tp_IGL\bin\Debug\tp_IGL.exe.config
+D:\TP\tp_IGL\tp_IGL\bin\Debug\tp_IGL.exe.config
