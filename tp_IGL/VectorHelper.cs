@@ -112,11 +112,9 @@ namespace tp_IGL
             b = c;
 
         }
-    }
-}
-
-/////////////////////////////////////////////////////////////////////
+        /////////////////////////////////////////////////////////////////////
         //tri par selection
+        
         public void tri_selection()
         {
             for (int i = 0; i < n1 - 1; i++)
@@ -131,8 +129,30 @@ namespace tp_IGL
             }
 
         }
+
         ///////////////////////////////////////////////////
-		  //inverser un tableau
+        //somme de deux tableaux
+        public void somme(int[] tab_somme)
+        {
+
+            if (n1 == n2)
+            {
+
+                for (int i = 0; i < n1; i++)
+                {
+                    tab_somme[i] = tab1[i] + tab2[i];
+                }
+            }
+            else
+            {
+            //    throw new exception();
+
+            }
+
+        }
+        ///////////////////////////////////////////////////
+        ///////////////////////////////////////////////////
+        //inverser un tableau
         public void invers_tab(int[] tab_invers)
         {
             for (int i = 0; i < n1; i++)
@@ -158,3 +178,8 @@ namespace tp_IGL
                 }
             }
         }
+
+
+    }
+}
+
