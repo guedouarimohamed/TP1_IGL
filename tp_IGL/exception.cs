@@ -9,6 +9,6 @@ namespace tp_IGL
     class exception : Exception
     {
 
-
+        public exception() : base("les longueurs du vecteur nr sont pas egaux") { }
     }
 }
